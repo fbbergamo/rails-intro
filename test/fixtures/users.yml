@@ -1,9 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  email: MyString
-
+  name: Felipe
+  email: fbbergamo@gmail.com
+  created_at: <%= Date.parse("2019-01-01") %>
+  
 two:
-  name: MyString
-  email: MyString
+  name: Bergamo
+  email: fbbergamo+@gmail.com
+  created_at: <%= Date.parse("2018-01-01") %>
